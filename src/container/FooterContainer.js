@@ -7,7 +7,8 @@ const mapDispatchToProps = dispatch => ({
   })
 
 const mapStateToProps = state => ({
-    chatid: state.chatid
+    conversationId: state.conversationId
+
   })
 
 const FooterContainer = connect(

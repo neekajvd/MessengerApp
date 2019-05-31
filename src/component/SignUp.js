@@ -1,6 +1,8 @@
 import React from 'react';
 import chat from '../images/chat.png';
 import axios from 'axios';
+import {Link} from 'react-router-dom'
+
 
 class Signup extends React.Component {
 
@@ -78,6 +80,11 @@ class Signup extends React.Component {
 				onClick={() => this.handleClick()}>
 					Sign Up
 				</button>
+				<Link
+					className='submit-link'
+					to='./'>
+					Login
+					</Link>
 			</div>
 		</div>);
 	}
